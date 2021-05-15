@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sistema SAH - Home</title>
+ 
+
+    <link href="css/estilo.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/validacao.js"></script>
+
+  </head>
+  <body>
+
+    <div class="area-trabalho">
+
+      <div>
+        <a href="home.html"><img src="imagens/logo.jpg"></a>
+      </div>
+
+      <form id="login" action="logar.php" method="POST" onsubmit="return valida_home(this)">
+        <div class="login">
+
+          <h2 class="title">Digite seu E-mail para acessar o Sistema Ajuste de Ponto</h2>
+  
+          <div>
+            <label>Email</label>
+            <input type="email" id="email" name="email" placeholder="ex. usuario@dominio.com.br"> 
+            <label>Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="6 números">           
+            <button type="submit" class="btn-usuario">Entrar</button>
+            <a href=""> Ainda não sou cadastrado!</a> 
+            <a href=""> Esqueceu a sua senha?</a>
+
+          </div>
+        </div>
+      </form>
+
+        <div class="agenda">
+          <h3>Agenda</h3>
+          <p>Dia 22/03 - Reunião equipe</p>
+          <p>Dia 23/03 - Reunião mensal</p>
+          <p>Dia 24/03 - Reunião geral</p>
+        </div>
+
+        <div class="aviso">
+          <p>ATENÇÃO: Mantenha seu ponto sempre em dia!</p>
+        </div>       
+    </div>
+  </body>
+</html>
