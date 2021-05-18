@@ -21,3 +21,7 @@ Quero que seja um marco e que eu possa olhar sempre com carinho para a minha pri
 
 Daqui pra frente serão melhorias incrementais nos próximos desafios!
 
+<h1 align="center">
+  <img alt="Exemplo de Tela" title="tela" width = 700px src="./imagens/Screenshot_2021-05-15 Sistema SAH - Editar Ajuste de Trabalhador.png" />
+</h1>
+
